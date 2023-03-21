@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CreateRegistrationComponent } from './create-registration/create-registration.component';
 import { RegistrationListComponent } from './registration-list/registration-list.component';
+import { UserDetailsComponent } from './user-detail/user-detail.component';
 
 const routes: Routes = [
   {
@@ -12,9 +13,18 @@ const routes: Routes = [
   {
     path: 'register',
     component: CreateRegistrationComponent,
-  },{
+  },
+  {
     path: 'list',
-    component: RegistrationListComponent
+    component: RegistrationListComponent,
+  },
+  {
+    path: 'detail/:id',
+    component: UserDetailsComponent,
+  },
+  {
+    path: 'update/:id',
+    component: CreateRegistrationComponent,
   },
 ];
 

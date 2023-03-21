@@ -20,6 +20,27 @@
       "haveGymBefore": "No",
       "enquiryDate": "2023-03-20T18:30:00.000Z",
       "id": 1
+    },
+    {
+      "firstName": "Kaja",
+      "lastName": "Mohan",
+      "email": "Kajamohan@gmail.com",
+      "mobile": "0721234567",
+      "weight": 6,
+      "height": 2,
+      "bmi": "1.50",
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Energy and Endurance",
+        "Fitness",
+        "Weight Loss"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2023-03-20T18:30:00.000Z",
+      "id": 2
     }
   ]
 }

@@ -11,12 +11,12 @@ export class ApiService {
   private baseUrl = "http://localhost:3000/enquiry";
 
   constructor(private http: HttpClient) {}
- 
+
   postRegistration(registerObj: User){
     return this.http.post<User>(this.baseUrl, registerObj);
   }
 
-  getRegistration(){
+  getRegisterUser(){
     return this.http.get<User[]>(`${this.baseUrl}`);
   }
 

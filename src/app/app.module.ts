@@ -33,6 +33,18 @@ import { ReactiveFormsModule } from '@angular/forms';
 // http client for api
 import { HttpClientModule } from '@angular/common/http';
 
+// table, paginator for table
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+
+// card for user detail, list for user detail
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+
+// chips for user detail
+import { MatChipsModule } from '@angular/material/chips';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +75,14 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
 
     HttpClientModule,
+
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+
+    MatCardModule,
+    MatListModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
